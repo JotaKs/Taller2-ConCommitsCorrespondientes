@@ -1,0 +1,428 @@
+*{
+    box-sizing: border-box; 
+    margin: 0px;
+}
+
+body{
+    font-family: Calibri;
+    margin: 0;
+}
+
+.container{
+    margin: auto;
+}
+
+/* Header Para todos*/
+header{
+    background-color: rgb(24, 69, 190);;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header #logo{
+    padding: 20px 25px;
+    font-size: 16px;
+    align-items: center;
+}
+
+header nav{ 
+    padding: 13px 120px; 
+    font-size: 13px;
+}
+
+header nav a {
+    margin: 22px;
+    font-weight: lighter;
+}
+
+header a{
+    text-decoration: none;
+    font-weight: normal;
+    color: white;
+}
+
+header a:hover{
+    color: blue;
+}
+
+/*Primera sección - Para todos*/
+section {
+    display: flex;
+    justify-content: center;
+}
+
+#foto{
+    flex-direction: column;
+    justify-content: space-around;
+    width: 135px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0px 37px;
+    font-size: 13px;
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}
+
+#detalle{
+    border: solid 1px;
+    height: 2.5px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+/*index*/
+#encabezadoi{
+    font-size: 50px;
+    font-weight: normal;
+    position: relative;
+    left: 470px;
+    top: 80px;
+}
+
+.containeri1{
+    height: 320px;
+    width: 100%;
+    color: grey;
+    position: relative;
+    left: 70px;
+    bottom: 15px;
+}
+
+.containeri2{
+    padding: 0px 45px;
+    position: absolute;
+}
+
+.containeri3{
+    width: 30%;
+    color: grey;
+    position: relative;
+    left: 320px;
+    top: 125px;
+}
+
+.containeri4{
+    width: 30%;
+    color: grey;
+    position: relative;
+    left: 571px;
+    bottom: 15px;
+}
+
+.containeri5{
+    width: 30%;
+    color: grey;
+    position: relative;
+    left: 820px;
+    bottom: 156px;
+}
+
+.containeri7{
+    position: relative;
+    bottom: 20px;
+}
+
+/*datos personales*/
+section .containerdp1{
+    height: 310px;
+    width: 235px;
+    margin: 25px;
+    color: grey;
+}
+
+.containerdp2{
+    height: 90px;
+    width: 135px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+#h2dp {
+    font-size: 12px;
+    border: solid 1px;
+    padding: 5px;
+    font-weight: normal;
+    margin: 9px;
+    text-indent: 3.5em;
+}
+
+#h2dp:first-child {
+    border: 0px;
+}
+
+#h2dp:nth-child(3){
+    border: 0px;
+    text-indent: 6em;
+}
+
+#h2dp:nth-child(4){
+    text-indent: 2.5em;
+}
+
+/*contacto*/
+#fotoc{
+    flex-direction: column;
+    justify-content: space-around;
+    width: 135px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0px 37px;
+    font-size: 13px;
+    position: relative;
+    left: 10px;
+}
+
+.containerc1{
+    height: 320px;
+    width: 30%;
+    color: grey;
+    position: relative;
+    left: 70px;
+}
+
+.containerc2{
+    padding: 0px 45px;
+}
+
+.containerc3{
+    height: 90px;
+    width: 135px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+#encabezado{
+    font-size: 50px;
+    font-weight: normal;
+}
+
+#h2c {
+    width: 225px;
+    font-size: 12px;
+    border: solid 1px;
+    padding: 5px;
+    font-weight: normal;
+    margin: 9px;
+    text-indent: 3.5em;
+}
+
+#h2c:first-child {
+    border: 0px;
+}
+
+/*Pasatiempo*/
+
+#fotop{
+    flex-direction: column;
+    justify-content: space-around;
+    width: 135px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0px 37px;
+    font-size: 13px;
+    position: relative;
+    left: 10px;
+}
+
+#encabezadop{
+    font-size: 50px;
+    font-weight: normal;
+    position: relative;
+    left: 20px;
+}
+
+#h2p {
+    width: 225px;
+    height: 26px;
+    font-size: 12px;
+    border: solid 1px;
+    padding: 5px;
+    font-weight: normal;
+    margin: 9px;
+    text-indent: 5em;
+}
+
+#h2p:first-child {
+    border: 0px;
+}
+
+.containerp1{
+    padding: 10px 37%;
+    height: 320px;
+    width: 100%;
+    color: grey;
+}
+
+#detallep{
+    border: solid 1px;
+    height: 2.5px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    right: 640px;
+}
+
+/*estudios*/
+.containere3{
+    height: 320px;
+    width: 30%;
+    color: grey;
+    position: relative;
+    left: 40px;
+}
+
+#fotoe{
+    flex-direction: column;
+    justify-content: space-around;
+    width: 135px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0px 37px;
+    font-size: 13px;
+    position: relative;
+    left: 10px;
+    top:7px;
+}
+
+/*Segunda Seccion - Para todos*/
+
+#descripcion{
+    display: flex;
+    height: 100px;
+    margin: 27px;
+    text-align: center;
+    font-size: 16px;
+}
+/*index*/
+.containeri6{
+    height: 100px;
+    width: 90%;
+    border: solid 1px;
+    border-radius: 30em;
+    color: grey;
+    margin: 40px;
+    position: absolute;
+    bottom: 25px;
+}
+
+/*datospersonales*/
+
+.containerdp3{
+    height: 100px;
+    width: 90%;
+    border: solid 1px;
+    border-radius: 30em;
+    color: grey;
+    margin: 20px;
+}
+.containerdp4{
+    height: 122px;
+}
+
+/*contacto*/
+.containerc5{
+    height: 100px;
+    width: 90%;
+    border: solid 1px;
+    border-radius: 30em;
+    color: grey;
+    margin: 40px;
+}
+
+.containerc4{
+    height: 162px;
+}
+
+/*pasatiempo*/
+
+.containerp4{
+    padding: 40px;
+    height: 162px;
+}
+
+.containerp5{
+    height: 80px;
+    width: 90%;
+    border: solid 1px;
+    border-radius: 30em;
+    color: grey;
+    margin: 40px;
+}
+
+#descripcionp{
+    display: flex;
+    height: 100px; 
+    margin: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/*estudios*/
+.containere1{
+    height: 100px;
+    width: 90%;
+    border: solid 1px;
+    border-radius: 30em;
+    color: grey;
+    margin: 27px;
+}
+
+.containere2{
+    height: 100px;
+    width: 90%;
+    border: solid 1px;
+    border-radius: 30em;
+    color: grey;
+    margin: 40px;
+    position: absolute;
+    background-color: white;
+}
+
+/* Footer - Para todos*/
+footer div{ 
+    font-size: 13px;
+    color: grey;
+ 
+}
+
+.container4{
+    position: relative;
+    left: 45%;
+    padding: 5px;
+}
+
+.container5{
+    width: 100px;
+    height: 30px;
+    align-items: flex-end;
+    position: relative;
+    left: 47%;
+}
+
+footer div img{
+    width: 17px;
+    height: 17px;
+    margin: 2px;
+}
+
+/*estudios*/
+.containere4{
+    position: absolute;
+    left: 47%;
+    padding: 5px;
+}
+.containere5{
+    position: relative;
+    left: 45%;
+    padding: 5px;
+}
+
+
+
